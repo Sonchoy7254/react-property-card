@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact-titla {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+.card {
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #5c5470;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 1px 2px 10px rgb(15, 244, 164);
+}
+
+.up {
+  background-color: #352f44;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  /* border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 5px; */
+}
+.contactName {
+  color: #fff;
+  font-size: 18px;
+}
+.avater-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.down {
+  background-color: #5c5470;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.down ul {
+  list-style-type: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+.down ul li {
+  padding: 5px 0px;
+}
